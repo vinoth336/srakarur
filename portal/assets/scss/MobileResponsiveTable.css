@@ -1,0 +1,49 @@
+table tr:nth-child(even) {background: #CCC}
+table tr:nth-child(odd) {background: #FFF}
+
+/*Mobile View*/
+@media only screen and  (max-width: 760px) {
+
+ #company{
+ margin-left:4% !important;
+ }
+
+.table-hover td, tr { display: block; }
+
+/* Hide table headers (but not display: none;, for accessibility) */
+
+.table-hover thead tr {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.table-hover tr { border: 1px solid black; }
+
+.table-hover tr + tr { margin-top: 1.5em; }
+
+.table-hover td {
+  /* make like a "row" */
+  border: none;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  padding-left: 50%;
+  text-align: left;
+}
+
+.table-hover td:before {
+  content: attr(data-label);
+  display: inline-block;
+  line-height: 1.5;
+  margin-left: -100%;
+  width: 100%;
+  white-space: nowrap;
+}
+#td_vnumber{
+	width:100% !important;
+}
+
+}
+#td_vnumber{
+	width:600px;
+}

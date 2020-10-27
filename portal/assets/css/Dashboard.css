@@ -1,0 +1,14 @@
+.bootstrap-select .btn.dropdown-toggle.select-with-transition{
+	
+	color : #000 !important;
+
+}
+.filter-option-inner-inner {
+    color: white;
+    font-weight: bold;
+}
+
+table tbody tr{
+	color : #151515 !important;
+	font-weight:unset !important;
+}

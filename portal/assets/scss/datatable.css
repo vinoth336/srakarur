@@ -1,0 +1,50 @@
+table.dataTable thead tr {
+  background-color: #14ccb9;
+  color : #fff !important;
+}
+table.dataTable tbody tr.odd{
+  background-color: #f9f9f9;
+}
+
+table.dataTable tbody tr{
+	color : #151515 !important;
+	font-weight:unset !important;
+}
+
+
+
+table.dataTable thead .sorting_asc::before, table.dataTable thead .sorting_desc::after {
+	color #000 !important;
+}
+
+
+.dataTables_length {
+	float : left;
+	margin-top : 10px;
+	margin-right : 20px;
+}
+
+.dataTables_filter {
+float : right;
+}
+
+.dt-buttons{
+float : right;
+}
+
+.dt-buttons button.btn{
+	margin-left: 5px !important;
+	padding:10px !important;
+	font-size : 12px
+}
+
+.dt-buttons .buttons-excel{
+	border: none;
+	background-color : #2ca4e6;
+}
+.dt-buttons .buttons-print{
+	border: none;
+	background-color : #2ca4e6;
+}
+
+
