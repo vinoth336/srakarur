@@ -135,7 +135,6 @@ function SaveProduct(){
 	}else{
 		$sql = "INSERT INTO sra_product (`productname`,`category_id`,`status`,`description`,`thumbnail`,`whodid`,`productcode`,`price`,`discount_price`, `tax`) VALUES ('{$request['productname']}','{$request['categoryname']}','".($request['status'] == 1 ? 1 : 0)."','{$request['description']}','".$thumbnail_path."','".$_SESSION['id']."','{$request['productcode']}','{$request['price']}','{$request['discount_price']}', '{$request['tax']}')";
 	}
-	echo $sql;exit;
 	$ex = $db->query($sql);
 	if($request['id'] == ''){
 
